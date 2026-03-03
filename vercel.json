@@ -1,14 +1,15 @@
 {
   "builds": [
     {
-      "src": "app.py",
+      "src": "blacklist.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.py"
+      "dest": "blacklist.py"
     }
   ]
 }
+
